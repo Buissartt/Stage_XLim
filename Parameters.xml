@@ -1,0 +1,32 @@
+<?xml version=\"1.0\"?>
+<parameters>
+	<acqusition_control>
+		<disable_led>false</disable_led>
+		<acquisition_frame_rate>15</acquisition_frame_rate>
+		<exposure_time>20000</exposure_time>
+		<exposure_auto>2</exposure_auto>
+		<agility>0.4</agility>
+		<delay>1</delay>
+	</acqusition_control>
+	<image_format_control>
+		<width>640</width>
+		<height>480</height>
+		<depth>65536</depth>
+		<offset_x>0</offset_x>
+		<offset_y>0</offset_y>
+		<offset_z>0</offset_z>
+		<range_enable>true</range_enable>
+		<range_pixel_format>39846080</range_pixel_format>
+		<intensity_enable>true</intensity_enable>
+		<intensity_pixel_format>17825799</intensity_pixel_format>
+		<confidence_enable>true</confidence_enable>
+		<confidence_pixel_format>17825799</confidence_pixel_format>
+	</image_format_control>
+	<image_quality_control>
+		<confidence_threshold>2048</confidence_threshold>
+		<spatial_filter_enable>true</spatial_filter_enable>
+		<temporal_filter_enable>true</temporal_filter_enable>
+		<temporal_filter_strenght>190</temporal_filter_strenght>
+		<outlier_tolerance>2000</outlier_tolerance>
+	</image_quality_control>
+</parameters>
