@@ -1,0 +1,24 @@
+
+Commandes :
+  - rospack find [package_name]		//renvoie le chemin du package
+  - roscd [locationname[/subdir]]	//changer de répertoire pour celui du package (cd)
+  - roscd log				//Emmène là où ros stock les fichiers de log
+  - rosls [package_name[/subdir]]	//Execute ls directement dans un package
+  
+  - roscore
+  - rosnode
+  - rosrun [package_name] [node_name] __name:=[desired_name]
+
+  - rostopic [command]
+	- rostopic echo [topic]
+  - rosmsg
+  - roslaunch [package] [filename.launch]
+
+  - rqt_graph
+  
+  - rosed [package_name] [filename]
+
+  - rosmsg show [message_type]
+  - rossrv show [service_type]
+
+  - roscp [package_name] [file_to_copy_path] [copy_path]
