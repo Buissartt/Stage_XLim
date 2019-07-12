@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="deuxieme_package" type="deuxieme_noeud" name="deuxieme_noeud" />
+</launch>

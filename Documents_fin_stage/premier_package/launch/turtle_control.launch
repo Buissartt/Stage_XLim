@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+	<node pkg="premier_package" type="premier_noeud" name="premier_noeud"/>
+</launch>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>premier_package</name>
+  <version>0.0.0</version>
+  <description>The premier_package package</description>
+
+  <maintainer email="mix@todo.todo">mix</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <exec_depend>roscpp</exec_depend>
+
+  <export>
+
+
+  </export>
+</package>
